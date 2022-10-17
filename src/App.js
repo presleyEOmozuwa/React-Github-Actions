@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          React User Interface Library.
+          React is a JavaScript Library.
         </p>
         <a
           className="App-link"
