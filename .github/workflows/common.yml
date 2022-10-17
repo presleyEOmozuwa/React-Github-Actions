@@ -41,7 +41,7 @@ jobs:
       - run: npm run test
 
   publish:
-    needs: [build, unit_tests]
+    needs: unit_tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
